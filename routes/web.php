@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+$fname = "Clovis";
+$lname = "Shropshire";
+$fullname = $fname . " " . $lname;
 
 Route::get('contact', 'PagesController@getContact');
 
